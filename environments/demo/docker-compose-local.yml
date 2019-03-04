@@ -58,7 +58,7 @@ services:
     volumes:
       - ./logs/management-ui:/var/log/httpd
     environment:
-      - MGMT_API_URL=http:\/\/localhost:8005\/management\/
+      - MGMT_API_URL=http:\/\/198.211.107.215:8005\/management\/
 
   local_managementapi:
     extends:
